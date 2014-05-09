@@ -18,6 +18,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
    setwd(dir)
    ```
 * Load run_analysis.R to the R console
+
    ```{r}
    source("run_analysis.R")
    ```
@@ -28,6 +29,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
    view(tidydata)
    ```
 * You can output the data to a new file with
+
    ```{r}
    write.table(tidydata,file="")
    ```
